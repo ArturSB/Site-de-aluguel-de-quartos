@@ -2,6 +2,12 @@ body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 22px;
+}
 header {
   width: 100%;
   height: 90px;
@@ -21,6 +27,14 @@ header div a {
 header span {
   color: rgb(31, 140, 140);
 }
+header a:visited {
+  color: rgb(90, 88, 88);
+}
+.nav a:hover {
+  background-color: rgb(10, 199, 158);
+  color: white;
+  border-radius: 15px;
+}
 .nav {
   width: 300px;
   display: flex;
@@ -29,11 +43,14 @@ header span {
 .nav a {
   border-bottom: 2px solid rgb(10, 199, 158);
   color: rgb(90, 88, 88);
+  padding: 15px;
+  margin: 10px;
 }
 .container-banner {
   display: flex;
   background-image: url("/pousada-web/assets/img-fundo.jpg");
   background-size: cover;
+  box-shadow: inset 0 0 10px 5px rgb(11, 113, 89);
   min-height: 1024px;
   justify-content: center;
   align-items: center;
@@ -70,12 +87,7 @@ header span {
 .secao-bem-vindo p {
   text-align: center;
 }
-.secao-bem-vindo h2 {
-  font-size: 40px;
-}
-.secao-bem-vindo p {
-  font-size: 22px;
-}
+
 .card-quarto {
   display: flex;
   flex-direction: column;
@@ -84,14 +96,13 @@ header span {
   border-top: 3px solid rgb(10, 199, 158);
   border-bottom: 3px solid rgb(10, 199, 158);
 }
-.card-quarto .botao {
-  justify-content: center;
-  align-items: center;
-}
+
 .botao {
   text-decoration: none;
   color: rgb(65, 61, 61);
   padding: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .card-quarto:hover {
   box-shadow: 2px 2px 10px 1px gray;
@@ -103,12 +114,6 @@ header span {
   text-align: center;
   margin: 80px 45px auto;
   padding: 20px;
-}
-.rota h2 {
-  font-size: 40px;
-}
-.rota p {
-  font-size: 22px;
 }
 
 /* seção sobre */
@@ -195,3 +200,5 @@ footer {
   align-items: center;
   margin: 0 auto;
 }
+
+/*----------------------------------------------*/
