@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+header {
+  width: 100%;
+  height: 90px;
+}
+header div {
+  display: flex;
+  margin: 0 auto;
+  max-width: 80%;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+}
+header div a {
+  text-decoration: none;
+  font-size: 28px;
+}
+header span {
+  color: rgb(31, 140, 140);
+}
+.nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav a {
+  border-bottom: 2px solid rgb(10, 199, 158);
+  color: rgb(90, 88, 88);
+}
+.container-banner {
+  display: flex;
+  background-image: url("/pousada-web/assets/img-fundo.jpg");
+  background-size: cover;
+  min-height: 1024px;
+  justify-content: center;
+  align-items: center;
+}
+.container-banner div {
+  border: 3px solid white;
+  width: 600px;
+  min-height: 150px;
+  background-color: rgba(76, 207, 146, 0.65);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-banner div h1 {
+  font-size: 58px;
+}
+.container-banner div p {
+  font-size: 32px;
+}
+.container-banner div h1,
+.container-banner div p {
+  color: white;
+}
+.container-quartos {
+  display: flex;
+  margin: 0 auto;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.secao-bem-vindo h2,
+.secao-bem-vindo p {
+  text-align: center;
+}
+.secao-bem-vindo h2 {
+  font-size: 40px;
+}
+.secao-bem-vindo p {
+  font-size: 22px;
+}
+.card-quarto {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% / 3) - 20px);
+  margin: 0 10px;
+  border-top: 3px solid rgb(10, 199, 158);
+  border-bottom: 3px solid rgb(10, 199, 158);
+}
+.card-quarto .botao {
+  justify-content: center;
+  align-items: center;
+}
+.botao {
+  text-decoration: none;
+  color: rgb(65, 61, 61);
+  padding: 5px;
+}
+.card-quarto:hover {
+  box-shadow: 2px 2px 10px 1px gray;
+}
+
+/* seção rota */
+
+.rota {
+  text-align: center;
+  margin: 80px 45px auto;
+  padding: 20px;
+}
+.rota h2 {
+  font-size: 40px;
+}
+.rota p {
+  font-size: 22px;
+}
+
+/* seção sobre */
+.sobre-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.textinho {
+  flex: 1 1 auto;
+}
+.sobre-texto {
+  text-align: center;
+  margin: 30px auto;
+}
+.sobre-texto h2 {
+  font-size: 40px;
+}
+.sobre-texto p {
+  font-size: 22px;
+}
+.sobre-card {
+  display: flex;
+  width: 45%;
+  margin: 0 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.sobre-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.sobre-imgs img {
+  width: 140px;
+  height: 153px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.sobre-imgs h3 {
+  font-size: 26px;
+}
+.sobre-imgs p {
+  font-size: 18px;
+}
+footer {
+  display: flex;
+  background-color: rgb(23, 148, 112);
+  color: white;
+  height: 275px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.contatos {
+  display: flex;
+  max-width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid rgb(11, 113, 89);
+  font-size: 22px;
+}
+.contatos div {
+  display: flex;
+  padding: 15px;
+}
+.contatos a {
+  text-decoration: none;
+  color: white;
+}
+.contatos div img {
+  margin-right: 15px;
+  object-fit: contain;
+}
+.copy {
+  display: flex;
+  font-size: 20px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
